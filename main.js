@@ -3,7 +3,7 @@ var names_of_people = [];
 function submit()
 {
     var GuestName = document.getElementById("name1").value;
-	name_of_the_student_array.push(GuestName);
+	name_of_people.push(GuestName);
 	// use the push function as - names_of_people.push(GuestName);
 	console.log(GuestName);    
     console.log(names_of_people);
